@@ -4,6 +4,25 @@
 /*font-family: 'Arvo', serif;*/
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
 /*font-family: 'Quicksand', sans-serif;*/
+body h1 {
+  font-family: 'Arvo', serif;
+  font-size: 25px;
+  color: #afb42b;
+}
+body h2 {
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+  color: #d81b60;
+  margin-top: 15px;
+  text-align: center;
+  border-bottom: 1px solid #F4F4F4;
+}
+body p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #212121;
+  text-align: justify;
+}
 .margint100 {
   margin-top: 100px;
 }
@@ -25,44 +44,48 @@
 .marginb10 {
   margin-bottom: 10px;
 }
-.menu {
+.margint15 {
+  margin-top: 15px;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.menu a {
   font-family: 'Arvo', serif;
-  font-size: 14px;
+  font-size: 16px;
+  color: #757575;
+}
+.logo {
+  width: 80px;
+  height: auto;
+  text-align: left;
 }
 .camila {
   position: fixed;
   top: 0;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   left: 0;
   z-index: 6;
-  background: #FFF;
+  background: black;
+  border-bottom: 1px solid #424242;
 }
-.bio h1 {
-  text-align: center;
-}
-.bio h3 {
-  border-bottom: 1px solid #F4F4F4;
-  font-size: 18px;
-  text-align: center;
-  margin-top: 15px;
+.bio i {
+  font-size: 35px;
+  color: #c2185b;
 }
 .servicios {
   margin-top: 50px;
 }
+.servicios i {
+  font-size: 35px;
+  color: #c0ca33;
+}
 .servicios .box {
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.75);
-  padding: 20px;
-}
-.servicios .box img {
-  display: block;
-  margin: 0 auto;
-}
-.servicios .box p {
-  text-align: center;
+  padding-top: 50px;
 }
 .portafolio {
   margin-top: 100px;
@@ -74,12 +97,23 @@
   height: 100px;
   resize: none;
 }
+.contacto .button {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background-color: #afb42b;
+}
 .contacto .right {
   float: right;
+}
+.contacto .middle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #212121;
 }
 .contacto .fa {
   font-size: 40px;
   text-align: center;
+  color: #d81b60;
 }
 .contacto .fa-envelope {
   font-size: 22px;
@@ -89,4 +123,23 @@
 }
 .contacto .text-center {
   text-align: center;
+}
+footer .fa {
+  color: #afb42b;
+  font-size: 20px;
+}
+footer spam {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #757575;
+}
+.scrollup {
+  width: 40px;
+  height: 40px;
+  opacity: .7;
+  position: fixed;
+  bottom: 40px;
+  right: 8px;
+  background-image: url(../img/ico-top.png);
+  z-index: 50;
 }
