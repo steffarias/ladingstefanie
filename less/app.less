@@ -10,28 +10,26 @@
 
 /*font-family: 'Quicksand', sans-serif;*/
 
-
 body {
     h1 {
-        font-family:'Arvo', serif;
+        font-family: 'Arvo', serif;
         font-size: 25px;
         color: #afb42b;
     }
     h2 {
-        font-family:'Arvo', serif;
+        font-family: 'Arvo', serif;
         font-size: 18px;
         color: #d81b60;
         margin-top: 15px;
-        text-align: center; 
+        text-align: center;
         border-bottom: 1px solid #F4F4F4;
     }
     p {
-        font-family: 'Quicksand', sans-serif; 
+        font-family: 'Quicksand', sans-serif;
         font-size: 16px;
         color: #212121;
         text-align: justify;
     }
-
 }
 
 .margint100 {
@@ -61,29 +59,29 @@ body {
 .marginb10 {
     margin-bottom: 10px;
 }
-.margint15 {
-    margin-top: 15px; 
-}
 
+.margint15 {
+    margin-top: 15px;
+}
 
 .img-responsive {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 .menu {
-    
     a {
         font-family: 'Arvo', serif;
         font-size: 16px;
-        color:#757575;
+        color: #757575;
     }
 }
 
 .logo {
-    width: 80px;
+    width: 50px;
     height: auto;
-    text-align: left;  
+    text-align: left;
 }
 
 .camila {
@@ -96,14 +94,24 @@ body {
     z-index: 6;
     background: black;
     border-bottom: 1px solid #424242;
+}
 
+.top-bar {
+    ul {
+        background: black;
+    }
 }
 
 .bio {
-    
     i {
         font-size: 35px;
-        color:#c2185b;
+        color: #c2185b;
+    }
+    .content-icon:hover {
+        animation: bounce;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
     }
 }
 
@@ -115,7 +123,6 @@ body {
     }
     .box {
         padding-top: 50px;
-
     }
 }
 
@@ -131,63 +138,46 @@ body {
         height: 100px;
         resize: none;
     }
-    
-    .button{
-        font-family:'Quicksand', sans-serif;
+    .button {
+        font-family: 'Quicksand', sans-serif;
         font-size: 16px;
-        background-color:#afb42b;   
+        background-color: #afb42b;
     }
-    
     .right {
         float: right;
     }
-    
     .middle {
-        font-family:'Quicksand', sans-serif;
+        font-family: 'Quicksand', sans-serif;
         font-size: 16px;
         color: #212121;
     }
     .fa {
         font-size: 40px;
         text-align: center;
-        color:#d81b60;
-
+        color: #d81b60;
     }
     .fa-envelope {
         font-size: 22px;
-        
     }
-
     .fa-map-marker {
         font-size: 35px;
-       
     }
     .text-center {
         text-align: center;
     }
-
 }
 
 footer {
     .fa {
-        color:#afb42b;
+        color: #afb42b;
         font-size: 20px;
     }
-    spam{
+    spam {
         font-family: 'Quicksand', sans-serif;
         font-size: 16px;
         color: #757575;
     }
-
-}
-
-.scrollup {
-    width: 40px;
-    height: 40px;
-    opacity: .7;
-    position: fixed;
-    bottom: 40px;
-    right: 8px;
-    background-image: url(../img/ico-top.png);
-    z-index: 50;
+    .top-bar {
+        text-align: center;
+    }
 }

@@ -58,7 +58,7 @@ body p {
   color: #757575;
 }
 .logo {
-  width: 80px;
+  width: 50px;
   height: auto;
   text-align: left;
 }
@@ -73,9 +73,18 @@ body p {
   background: black;
   border-bottom: 1px solid #424242;
 }
+.top-bar ul {
+  background: black;
+}
 .bio i {
   font-size: 35px;
   color: #c2185b;
+}
+.bio .content-icon:hover {
+  animation: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
 }
 .servicios {
   margin-top: 50px;
@@ -133,13 +142,6 @@ footer spam {
   font-size: 16px;
   color: #757575;
 }
-.scrollup {
-  width: 40px;
-  height: 40px;
-  opacity: .7;
-  position: fixed;
-  bottom: 40px;
-  right: 8px;
-  background-image: url(../img/ico-top.png);
-  z-index: 50;
+footer .top-bar {
+  text-align: center;
 }
